@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Películas</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    
+    <div class="logo1">
+        <img src="Imganes/descarga.png" style="height: auto; width: 200px; position: absolute; left: 2%; top: 5%;">
+    </div>
+    <div class="logo">
+        <img src="Imganes/itma.jpg" style="height: auto; width: 150px; position: absolute; left: 87%; top: 5%;">
+    </div>
+    <div class="peli">
+        <img src="Imganes/hachiko.jpg" style="height: auto; width: 250px; position: absolute; left: 1%; top: 20%;">
+    </div>
+    <h1>Catálogo de Películas</h1>
+
+    <div><section>
+        <img src="Imganes/hp1.jpg" style="height: auto; width: 150px; position: absolute; left: 80%; top: 30%;" >
+        <img src="Imganes/dbz.jpg" style="height: auto; width: 134px; position: absolute; left: 73%; top: 30%;">
+        <img src="Imganes/hp2.jpg" style="height: auto; width: 148px; position: absolute; left: 70%; top: 30%;">
+        <img src="Imganes/ryf.jpg" style="height: auto; width: 149px; position: absolute; left: 85%; top: 30%;">
+        <img src="Imganes/your.jpg" style="height: auto; width: 149px; position: absolute; left: 90%; top: 30%;">
+    </section></div>
+    
+    <div class="container">
+        
+        <div class="form-container">
+            <input type="text" id="titulo" placeholder="Título de la película">
+            <input type="text" id="director" placeholder="Director">
+            <input type="number" id="año" placeholder="Año">
+            <button id="addButton">Agregar Película</button>
+        </div>
+        <div class="flex-container">
+            <div class="catalogo-container">
+                <ul id="movieList"></ul>
+            </div>
+        </div>
+    </div>
+    <div class="mas">Descubre las peliculas mas vistas</div>
+    
+    <footer><div class="orgullo">#OrgulloTecNM</div></footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

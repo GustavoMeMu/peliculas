@@ -1,0 +1,197 @@
+body {
+    font-family: Arial, sans-serif;
+
+    background-image: url('Imganes/angry-bobcat-illustration-vector.jpg');
+    background-position-x: center;
+    background-repeat: no-repeat;
+    margin: center;
+    padding: 20px;
+}
+section{
+    display:flex;
+    width: 600px;
+    height: 430;
+}
+section img{
+width: 0px;
+flex-grow: 1;
+object-fit: cover;
+opacity: .1;
+transition: .5s ease;
+}
+section img:hover{
+cursor: crosshair;
+width: 300;
+opacity: 1;
+}
+.mas{
+    font-size: 20px;
+    /* background-color: #0a135b; */
+    color: rgb(0, 0, 0);
+    margin-left: 73.5%;
+    /* margin-right: 2%; */
+    margin-top: 3.5%;
+    font-family: 'Comic Sans MS';
+    color: white;
+    text-shadow:
+        0 0 10px silver,
+        0 0 20px silver,
+        0 0 30px silver,
+        0 0 40px #aab4ff,
+        0 0 70px #0a135b,
+        0 0 80px #0a135b,
+        0 0 100px #0a135b,
+        0 0 150px #b8c1ff,
+        1px 1px 0 #000,
+        2px 2px 0 #000,
+        3px 3px 0 #000,
+        4px 4px 0 #000,
+        5px 5px 0 #000;
+}
+/* .message.success {
+    color: white;
+    font-size: 80px;
+    margin-left: -30%;
+    text-shadow: 0 0 5px #00FFFF, 0 0 10px #00FFFF, 0 0 20px #00FFFF, 0 0 30px #00FFFF, 0 0 40px #00FFFF, 0 0 50px #00FFFF, 0 0 60px #00FFFF;
+} */
+.container {
+    max-width: 400px;
+    margin-left: 37%;
+    margin-top: 5%;
+    height: 200px;
+    font-size: large;
+}
+
+.flex-container {
+    max-width: 600px;
+    color: #0a135b;
+    font-size: xx-large;
+
+}
+
+h1 {
+    margin-left: 35%;
+    font-family: 'Arial Black', sans-serif;
+    font-size: 25px;
+    color: rgb(23, 9, 103);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: linear-gradient(to bottom, #797979, #0a135b);
+    display: inline-block;
+    padding: 10px 20px;
+    border: 3px solid #0a135b;
+    text-align: center;
+    color: silver;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-container input {
+    padding: 10px;
+    font-size: 36px;
+}
+
+.form-container button {
+    padding: 10px;
+    font-size: 36px;
+    background-color: #0a135b;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background-color: #ffffff;
+    color: #0a135b;
+}
+
+.catalogo-container {
+    margin-top: 20px;
+}
+
+#movieList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#movieList li {
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #0a135b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#movieList li .actions {
+    display: flex;
+    gap: 10px;
+}
+
+#movieList li .actions button {
+    padding: 5px 10px;
+    
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.actions {
+    display: flex;
+    gap: 10px;
+}
+
+.edit-button,
+.delete-button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 50px;
+}
+
+.edit-button {
+    background-color: #0a135b;
+    color: white;
+
+}
+
+.delete-button {
+    background-color: #a10b00;
+    color: white;
+}
+
+.edit-button:hover,
+.delete-button:hover {
+    opacity: 0.8;
+}
+
+.orgullo {
+    /* background-color: #0a135b; */
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    margin-left: 0%;
+    /* margin-right: 37%; */
+    margin-top: 7%;
+    font-family: 'Comic Sans MS';
+    font-size: 25px;
+    color: white;
+    text-shadow:
+        0 0 10px silver,
+        0 0 20px silver,
+        0 0 30px silver,
+        0 0 40px #aab4ff,
+        0 0 70px #0a135b,
+        0 0 80px #0a135b,
+        0 0 100px #0a135b,
+        0 0 150px #b8c1ff,
+        1px 1px 0 #000,
+        2px 2px 0 #000,
+        3px 3px 0 #000,
+        4px 4px 0 #000,
+        5px 5px 0 #000;
+}
